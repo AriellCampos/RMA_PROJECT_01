@@ -1,4 +1,7 @@
 # RMA_PROJECT_01
+
+![plot](./turtlebot3_maze_gazebo.png)
+
 In this repository, there are files to be used in conjunction with Turtlebot3. With these files you will be able to run Turtlebot3 inside a maze and go from the starting point to another point on the map automatically.  This repository was created to store the solution of research work 01 of the discipline Mobile autonomous robots. Provided by the Graduate Program in Computer Science at UFSCar Sorocaba.
 
 Group: 
@@ -68,3 +71,8 @@ Execute this commands in terminal:
 - $ cd /workspace
 - $ export TURTLEBOT3_MODEL=waffle_pi
 - $roslaunch ros_autonomous_slam turtlebot3_maze.launch
+
+Turtlebot3 will walk to destination
+
+![plot](./maze_goal.png)
+ 
