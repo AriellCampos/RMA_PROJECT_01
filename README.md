@@ -48,8 +48,12 @@ The Navigation stack can also be downloaded as source files to your workspace an
 ### In folder ros_autonomous_slam
 - Copy the file turtlebot3_maze.launch in ~/workspace/src/ros_autonomous_slam/launch
 - Copy the files maze.pgm and maze.yaml in ~/workspace/src/ros_autonomous_slam/maps
-- Copy the files maze.py in ~/workspace/src/ros_autonomous_slam/nodes
 - Copy the files testWorld.world in ~/workspace/src/ros_autonomous_slam/worlds
+- Copy the files maze.py in ~/workspace/src/ros_autonomous_slam/nodes
+
+### Transform .py in executable
+open ~/workspace/src/ros_autonomous_slam/nodes in terminal and execute command:
+- $ chmod +x maze.py
 
 ### In folder turtlebot3_simulations
 - Copy the folder maze in ~/workspace/src/turtlebot3_simulations/turtlebot3_gazebo/models
