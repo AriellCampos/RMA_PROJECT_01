@@ -1,0 +1,16 @@
+Metodoly
+
+As a first step, we performed the installation of turtlebot3 in the workspace.
+After installation, we copy the available map to turtlebot3's maps folder.
+We created a new .launch based on Turtlebot3 .launch (turtlebot3_maze.launch), put maze.world and RVIZ to boot along with the gazebo.
+We create the maze.py script that sends the desired position to /move_base and add the script call in turtlebot3_maze.launch
+
+Results
+After performing these steps when starting the launch with the commands:
+
+- $source ~/.bashrc
+- $cd /workspace
+- $export TURTLEBOT3_MODEL=waffle_pi
+- $roslaunch ros_autonomous_slam turtlebot3_maze.launch
+
+The gazebo features the maze with the turtlebot3 waffle_pi leaving the starting point and going to the destination point.
