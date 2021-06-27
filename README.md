@@ -18,8 +18,6 @@ Group:
 If you prefer to install the turtlebot3 environment from scratch follow the steps below. If you want to download the configured zipped folder, follow from step 2.
 
 ## 1. Install the dependencies step to step
-
-    If 
 - $ source /opt/ros/noetic/setup.bash
 - $ sudo apt-get install ros-noetic-turtlebot3-msgs
 - $ sudo apt-get install ros-noetic-turtlebot3
