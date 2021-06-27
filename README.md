@@ -17,7 +17,7 @@ Group:
 
 # Pre-Requisites
 - Ubuntu 20.04.2.0 LTS (Focal Fossa)
-- ROS nsimulator [here] https://www.laris.ufscar.br/pt-br/pessoal/simulator-mrs
+- ROS simulator [here] https://www.laris.ufscar.br/pt-br/pessoal/simulator-mrs
 
 # Install and configured turtlebot3
 If you prefer to install the turtlebot3 environment from scratch follow the steps below. If you want to download the configured zipped folder, follow from step 2.
