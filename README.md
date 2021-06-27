@@ -1,4 +1,4 @@
-# RMA_PROJETC_01
+# RMA_PROJECT_01
 In this repository, there are files to be used in conjunction with Turtlebot3. With these files you will be able to run Turtlebot3 inside a maze and go from the starting point to another point on the map automatically.  This repository was created to store the solution of research work 01 of the discipline Mobile autonomous robots. Provided by the Graduate Program in Computer Science at UFSCar Sorocaba.
 
 Group: 
@@ -55,7 +55,7 @@ The Navigation stack can also be downloaded as source files to your workspace an
 - Copy the files testWorld.world in ~/workspace/src/turtlebot3_simulations/turtlebot3_gazebo/worlds
 
 # 2. Folder already configured
-- Copy internal folder of turtlebot3_maze_configured in ~/workspace/src
+- Unzip turtlebot3_maze_configured.zip and copy internal folder in ~/workspace/src
 
 ###  Compile the environment with catkin
 - $ cd ~/workspace/src/
